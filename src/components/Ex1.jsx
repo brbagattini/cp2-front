@@ -4,7 +4,7 @@
 export default function Ex1() {
   return (
     <div className="my-8">
-      <button className="DisplayFlex rounded-2xl bg-blue-700 w-2xh h-4r text-white p-0.5 hover:bg-blue-950">Botão datado</button>
+      <button className="DisplayFlex rounded-2xl bg-blue-700 w-2xh h-10 text-white p-0.5 hover:bg-blue-950">Botão</button>
     </div>
   );
 }

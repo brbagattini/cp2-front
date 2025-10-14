@@ -8,8 +8,11 @@
 export default function Ex5() {
   return (
     <div className="my-8">
-        <h1 className="text-2xl font-bold mb-4">Ex5 - Navbar Responsiva</h1>
-      {/* Resolva aqui */}
+      <nav className="DisplayFlex w-full h-40 gap-7 bg-blue-300 text-3xl flex-col md:flex-row">
+        <a href="">Link A</a>
+        <a href="">Link B</a>
+        <a href="">Link C</a>
+      </nav>
     </div>
   );
 }

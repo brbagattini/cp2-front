@@ -1,1 +1,14 @@
 @import "tailwindcss";
+.DisplayFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.px50{
+    height: 50px;
+    width: 50px;
+}
+.px550{
+    height: 550px;
+    width: 550px;
+}

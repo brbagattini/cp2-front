@@ -5,7 +5,7 @@ import Ex1 from "../components/Ex1"
 export default function Ex4() {
   return (
     <div className="my-8">
-      <div className="bg-amber-800 w-full md:w-60 h-80 flex DisplayFlex flex-col">
+      <div className="bg-amber-800 w-full md:w-60 h-80 flex DisplayFlex flex-col border-4 border-double border-b-blue-900 rounded-2xl shadow-2xl shadow-black">
         <h1 className=" font-bold text-3xl ">Titulo</h1>
         <p className=" text-2xl">Algo random</p>
         <Ex1 />

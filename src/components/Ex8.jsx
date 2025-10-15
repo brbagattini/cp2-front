@@ -6,6 +6,7 @@
 
 // - O ícone no topo deve ter uma animação contínua de balanço usando @keyframes.
 
+
 import { FaShoppingCart } from "react-icons/fa";
 
 export default function Ex8() {
@@ -14,8 +15,8 @@ export default function Ex8() {
     <>
     <h1 className="text-2xl font-bold mb-4">Ex8 - Card de Produto</h1>
     <section className="flex justify-center items-center mb-12">
-      <div className="bg-white p-6 rounded-lg shadow-md w-64 text-center">
-        <div className="text-4xl text-blue-600 mb-4 flex justify-center">
+      <div className="bg-white p-6 rounded-lg shadow-md w-64 text-center hover:shadow-2xl shadow-black">
+        <div className="text-4xl text-blue-600 mb-4 flex justify-center hover:animate-spin">
           <FaShoppingCart />
         </div>
         <h3 className="text-lg font-semibold mb-2">Produto em Promoção</h3>

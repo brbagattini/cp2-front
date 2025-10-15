@@ -1,6 +1,5 @@
 // Ex1 — Botão estilizado com Tailwind
 // Crie um botão centralizado com a cor azul, texto branco, padding, bordas arredondadas e efeito `hover` para escurecer a cor.
-
 export default function Ex1() {
   return (
     <div className="my-8">
